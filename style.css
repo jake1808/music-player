@@ -77,8 +77,10 @@ h3 {
 .duration-wrapper {
   position: relative;
   top: -25px;
+  left: 0;
   display: flex;
   justify-content: space-between;
+ 
 }
 
 /* Controls */
@@ -93,10 +95,13 @@ h3 {
   font-size: 30px;
   color: rgb(129, 129, 129);
   margin-right: 30px;
-
+  cursor: pointer;
+  user-select: none;
 }
 
-
+.fas:hover{
+  filter:brightness(80%)
+}
 
 .main-button {
   font-size: 40px;
